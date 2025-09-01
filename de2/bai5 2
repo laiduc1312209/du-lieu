@@ -1,0 +1,7 @@
+from math import sqrt
+n=int(input('n = '))
+x = sqrt(n)
+if int(x)**2==n :
+    print('Y')
+else:
+    print('N')

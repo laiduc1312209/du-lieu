@@ -1,0 +1,8 @@
+for i in range(1000,10000):
+    s=str(i)
+    AB=s[0:2]
+    CD=s[2:]
+    ab=int(AB)
+    cd=int(CD)
+    if (ab+cd)**2==i:
+        print(i)

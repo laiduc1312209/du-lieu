@@ -1,0 +1,10 @@
+for i in range(100,1000):
+    s=str(i)
+    A=s[:1]
+    B=s[1:2]
+    C=s[2:]
+    a=int(A)
+    b=int(B)
+    c=int(C)
+    if (a**3)+(b**3)+(c**3)==i:
+        print(i)

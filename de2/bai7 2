@@ -1,0 +1,11 @@
+h = int(input('Giờ: '))
+m = int(input('Phút: '))
+s = int(input('Giây: '))
+sm = int(input('Số giây cần cộng thêm: '))
+if sm+s >= 60:
+    m = m + 1
+    s = s + sm - 60
+if m >= 60:
+    h = h + 1
+    m = m - 60
+print('Tg sau khi cộng thêm :', h, 'h', m, 'm', s, 's') 
